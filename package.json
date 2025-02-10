@@ -1,0 +1,29 @@
+{
+    "name": "workshop",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Workshop de Automacao Icaro Tech",
+    "scripts": {
+        "cy:chrome": "cypress run -b chrome",
+        "cy:firefox": "cypress run -b firefox",
+        "cy:report": "node ./cypress/report.js"
+    },
+    "cypress-cucumber-preprocessor": {
+        "cucumberJson": {
+            "generate": true
+        },
+        "step_definitions": "cypress/support/steps"
+    },
+    "devDependencies": {
+        "cypress": "^7.4.0",
+        "cypress-cucumber-preprocessor": "^4.3.1",
+        "cypress-xpath": "^1.6.2",
+        "faker": "^5.5.3",
+        "multiple-cucumber-html-reporter": "^1.18.0"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^7.5.0",
+        "cpf-cnpj-validator": "^1.0.3",
+        "gerador-validador-cpf": "^5.0.2"
+    }
+}

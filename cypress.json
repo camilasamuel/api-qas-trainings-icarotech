@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://api-qas-trainings.glitch.me",
+    "video": false,
+    "screenshotOnRunFailure": true,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "defaultCommandTimeout": 50000
+}
