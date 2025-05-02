@@ -11,7 +11,6 @@
 - Rodar os testes via interface `$ npx cypress open`
 
 ## Execuções dos Testes
-### Ambiente de Desenvolvimento
 - Executar os testes via headless `$ npx cypress run`
 - Executar os testes via interface `$ npx cypress open`
 
